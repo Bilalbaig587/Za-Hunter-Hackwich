@@ -7,13 +7,15 @@
 //
 
 import UIKit
+import MapKit
 
 class LocationDetailViewController: UIViewController {
+    
+    var selectedMapItem = MKMapItem()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        print(selectedMapItem.name!)
     }
     
 
